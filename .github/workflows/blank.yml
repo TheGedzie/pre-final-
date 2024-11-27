@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run a one-line script
-        run: echo ${{ secrets.TG_TOKEN}}
+        run: echo ${{ secrets.TOKEN_TG}}
       # - name: Run a multi-line script
       #   run: |
       #     echo Add other actions to build,
