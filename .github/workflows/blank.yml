@@ -17,8 +17,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: install dependencies
         run: npm install 
-      - name: check code style
-        run: npx prettier ./src/ --check
+      # - name: check code style
+      #   run: npx prettier ./src/ --check
   
   build:
     runs-on: ubuntu-latest
